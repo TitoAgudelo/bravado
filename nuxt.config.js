@@ -64,5 +64,9 @@ export default {
     icons: {
       solid: true
     }
+  },
+
+  generate: {
+    fallback: true
   }
 }
