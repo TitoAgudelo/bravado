@@ -53,7 +53,7 @@ export default {
 
   // Axios Config
   axios: {
-    baseURL: process.env.API_URL,
+    baseURL: process.env.API_URL || 'https://quizzical-shockley-7fd519.netlify.app/users.json.erb',
   },
 
   buildModules: [
